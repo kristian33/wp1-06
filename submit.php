@@ -11,6 +11,10 @@
       if ($age >= 18) {
       echo "dostaneš alkohol";
 }
+      elseif ($age >= 15) {
+      echo "Občanku máš, ještě si ale počkej.";
+}
+
       else {
       echo "nedostaneš alkohol";
 }
