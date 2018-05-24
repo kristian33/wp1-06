@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title></title>
-</head>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <?php
+    $salary = 90000;
+    $car = 500000;
+    $vila = True;
 
-<body>
+  if (($salary>=90000) && ($car>=500000) || ($vila)) {
+    echo "Pražská štětka chce chlápka.";
+  }
+  elseif ($salary<90000) {
+    echo "Je to pražanda.";
+  }
+  elseif ($car<500000) {
+    "Nechce ho ikdyž je bohatý";
+  }
+  else {
+    echo "Vůbec ho nechce je bez peněz";
+  }
+      ?>
 
-<form class="" action="submit.php" method="post">
-Věk:  <input type="number" name="age" value="0" max="100"> <br>
-</br> Jméno: <input type="text" > <br>
-</br> Příjmení:  <input type="text">  <br>
-<input type="submit" name="Accept">
-</form>
   </body>
-</html>
-</body>
-
-
 </html>
